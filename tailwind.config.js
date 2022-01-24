@@ -23,7 +23,7 @@ module.exports = {
         "2xl": "1536px",
       },
       animation: {
-        "myAnim ": "1s ease 0s 1 normal forwards",
+        myAnim: "1s ease 0s 1 normal forwards",
       },
       keyframes: {
         myAnim: {
@@ -45,7 +45,9 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      animation: ["responsive", "motion-safe", "motion-reduce", "hover"],
+    },
   },
   plugins: [],
 };

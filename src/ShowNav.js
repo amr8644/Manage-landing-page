@@ -1,11 +1,11 @@
 import React from "react";
 
-const ShowNav = () => {
+const ShowNav = ({ showList }) => {
   return (
     <nav
-      className={
-        "absolute top-[100px] sm:w-11/12  h-96 flex flex-col items-center justify-between z-30 shadow-2xl bg-white  animate-myAnim"
-      }
+      className={`absolute top-[100px] sm:w-11/12  h-96 flex flex-col items-center justify-between z-30 shadow-2xl bg-white ease-in-out  duration-300 ${
+        showList ? "translate-x-0" : "translate-x-full"
+      }`}
     >
       <ul className={"w-full h-full flex items-center justify-evenly flex-col"}>
         <li
