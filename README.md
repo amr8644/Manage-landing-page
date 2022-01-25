@@ -1,4 +1,55 @@
-# Getting Started with Create React App
+# Frontend Mentor - Manage landing page solution
+
+This is a solution to the [Manage landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/manage-landing-page-SLXqC6P5). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+
+## Table of contents
+
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
+
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- View the optimal layout for the site depending on their device's screen size
+- See hover states for all interactive elements on the page
+- See all testimonials in a horizontal slider
+- Receive an error message when the newsletter sign up `form` is submitted if:
+  - The `input` field is empty
+  - The email address is not formatted correctly
+
+### Screenshot
+
+![Desktop](./src/design/desktop-design.jpg)
+![Mobile](./src/design/desktop-mobile.jpg)
+
+### Links
+
+- Solution URL: [Git Hub](https://github.com/amr8644/Manage-landing-page)
+- Live Site URL: [Preview](https://zealous-pike-311385.netlify.app/)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- React JS
+- Tailwind CSS
+
+## Author
+
+- Amr Ashebo
+- Twitter - [@amr_ashebo](https://twitter.com/amr_ashebo)
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
