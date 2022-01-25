@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import logo from "./images/logo.svg";
 import Facebook from "./images/icon-facebook.svg";
 import Instagram from "./images/icon-instagram.svg";
@@ -39,19 +39,22 @@ const Footer = () => {
       </article>
 
       <article className="lg:w-2/6 sm:w-full flex items-center justify-center sm:mb-10">
-        <input
-          type="email"
-          name="email"
-          placeholder="Updates in your inbox..."
-          className="focus:ring-2 focus:ring-BrightRed outline-none py-2 px-4 rounded-full text-sm"
-        />
-        <button
-          className={
-            "px-3 py-1 rounded-full bg-BrightRed text-VaryLightGray hover:bg-opacity-50 duration-300 shadow-xl mx-2"
-          }
-        >
-          Go
-        </button>
+        <form className="w-full h-full flex items-center justify-center">
+          <input
+            type="email"
+            name="email"
+            placeholder="Updates in your inbox..."
+            className="focus:ring-2 focus:ring-BrightRed outline-none py-2 px-4 rounded-full text-sm"
+          />
+          <button
+            type="submit"
+            className={
+              "px-3 py-1 rounded-full bg-BrightRed text-VaryLightGray hover:bg-opacity-50 duration-300 shadow-xl mx-2"
+            }
+          >
+            Go
+          </button>
+        </form>
       </article>
     </section>
   );
