@@ -6,6 +6,8 @@ import ShowNav from "./ShowNav";
 import Close from "./images/icon-close.svg";
 import FirstSection from "./FirstSection.js";
 import SecondSection from "./SecondSection.js";
+import Testimonial, { LastSection } from "./Testimonial.js";
+import Footer from "./Footer.js";
 
 function App() {
   return (
@@ -13,13 +15,15 @@ function App() {
       <Header />
       <FirstSection />
       <SecondSection />
+      <Testimonial />
+      <LastSection />
+      <Footer />
     </>
   );
 }
 
 const Header = () => {
   const [showList, setShowList] = useState(false);
-  console.log(showList);
   return (
     <header
       className={
